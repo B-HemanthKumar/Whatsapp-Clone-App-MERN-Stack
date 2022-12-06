@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+.form-error {
+  font-family: "Permanent Marker";
+  color: red;
+}
+
+.sidenav {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-y: scroll;
+  padding: 10px 5px 0 5px;
+  background-color: #2a2f32;
+}
+
+.sidenav::-webkit-scrollbar {
+  width: 10px;
+}
+
+.main {
+  margin-left: 25%;
+  height: 100vh;
+  background-color: #0d1418;
+}
+
+.main::-webkit-scrollbar {
+  display: none;
+}
+
+.user-info {
+  position: absolute;
+  top: 0;
+  width: calc(75% - 20px);
+  background-color: #262d31;
+  color: white;
+  padding: 10px;
+}
+
+.top-side-nav {
+  width: -webkit-fill-available;
+  border-bottom: 1px solid white;
+}
+
+.sidenav-pp {
+  margin: 5px;
+  max-width: 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.profile-content {
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: #2a2f38;
+  transition: 0.5s;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.topnav-mobile {
+  background-color: #3e474d;
+  padding: 10px;
+}
+
+.topnav-mobile-title {
+  font-family: "Roboto Condensed";
+  margin: 0;
+  color: whitesmoke;
+}
+
+.topnav-mobile-options {
+  float: right;
+}
+
+.options-mobile {
+  padding: 10px;
+  position: absolute;
+  width: 80px;
+  background-color: white;
+  right: 0px;
+  left: auto;
+  display: none;
+  z-index: 3;
+  top: 0;
+}
+
+.options-dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.options-mobile p {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.main-mobile {
+  background-color: #262d31;
+  height: calc(100vh - 35px);
+}
+
+.mobile-overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  background-color: rgb(13, 20, 24);
+  background-color: rgba(13, 20, 24, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.mobile-overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.mobile-overlay-closeBtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.top-side-nav-right {
+  float: right;
+}
+
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #262d31;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete-active {
+  background-color: #262d31;
+  color: #ffffff;
+}
+
+.sidenav-user {
+  border: 1px solid #242d32;
+  width: 100%;
+  overflow: hidden;
+  background-color: #131c21;
+  cursor: pointer;
+}
+
+.usernav-name {
+  padding: 10px 0 0 10px;
+  margin: 0;
+  color: #d4d4d4;
+  font-family: "Poppins";
+  z-index: 8;
+}
+
+.usernav-email {
+  padding: 0 10px 10px 10px;
+  margin: 0;
+  color: #d4d4d4;
+  font-family: "Roboto condensed";
+}
+
+.messages {
+  height: -webkit-fill-available;
+  overflow-y: scroll;
+  padding-top: 59px;
+  padding-bottom: 62px;
+}
+.messages::-webkit-scrollbar {
+  width: 10px;
+}
+
+.inputChat {
+  position: absolute;
+  bottom: 0px;
+  width: calc(75% - 10px);
+  padding: 5px;
+  background-color: #2a2f38;
+}
+
+.input-chat {
+  width: 85%;
+  float: left;
+}
+
+.send-chat {
+  float: left;
+  width: 15%;
+}
+
+.send-message-button {
+  width: 100%;
+  background-color: #131c21;
+  color: white;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.main-mobile-chat {
+  background-color: #0d1418;
+  height: calc(100vh - 39px);
+}
+
+.user-info-mobile {
+  background-color: #2a2f38;
+}
+
+.inputChat-mobile {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: #2a2f38;
+}
+
+.input-chat-mobile {
+  width: calc(75%);
+  float: left;
+}
+
+.send-chat-mobile {
+  float: left;
+  width: 25%;
+}
+.messages-mobile {
+  height: -webkit-fill-available;
+  overflow-y: scroll;
+  width: 100%;
+  padding-bottom: 62px;
+}
+
+.messageContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 5%;
+  margin-top: 3px;
+  color: #d4d4d4;
+}
+
+.receivedMessage {
+  justify-content: flex-start;
+}
+
+.sentMessage {
+  justify-content: flex-end;
+}
+
+.messageBox-receive {
+  background-color: #262d31;
+}
+
+.messageBox-sent {
+  background-color: #054740;
+}
+
+.messageBox {
+  border-radius: 20px;
+  padding: 5px 20px;
+  display: inline-block;
+  max-width: 70%;
+}
+
+.messageText {
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  font-size: 1.1em;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  font-family: "Roboto Condensed";
+}
+
+.sender-info {
+  margin: 0;
+  border-bottom: 1px solid #d4d4d4;
+  color: #d4d4d4 !important;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(13, 20, 24);
+  background-color: rgba(13, 20, 24, 0.9);
+}
+
+.modal-content {
+  background-color: #131c21;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  margin-top: 10vh;
+  height: calc(80vh - 40px);
+  overflow-y: auto;
+}
+
+.modal-close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-btn {
+  cursor: pointer;
+}
+
+.group-member {
+  width: -webkit-fill-available;
+  padding: 10px;
+  margin: 5px;
+  background-color: #242d32;
+  cursor: pointer;
+}
+
+.group-member h3 {
+  margin: 0;
+}
+
+.remove-user {
+  margin: 0 0 0 10px;
+}
+
+.group-info-mobile {
+  margin: 0 20px 30px 20px;
+  width: -webkit-fill-available;
+}
