@@ -4,7 +4,7 @@ How to run this project:
 
 - Clone this repository or fork it.
   - To clone this repository type `git clone https://github.com/B-HemanthKumar/Whatsapp-Clone-App.git` on your command line
-  - To fork this repository, click fork button of this repository then type `git clone https://github.com/<your username>/whatsapp-clone-app.git`
+  - To fork this repository, click fork button of this repository then type `git clone https://github.com/B-HemanthKumar/Whatsapp-Clone-App.git.git`
 
  - In `Backend` folder, create a new file named `.env` which stores informations about server side variables such as `ATLAS_URI`, `SECURITY_KEY` and `CLIENT_URL` informations
   - `ATLAS_URI` variable stores your database(MONGODB) URI  
