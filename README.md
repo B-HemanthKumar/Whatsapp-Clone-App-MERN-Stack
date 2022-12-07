@@ -39,7 +39,7 @@ How to run this project:
 
 - Run it on node js:
 
-  - Fronted side (Client): on the `Fronted` directory type `npm start` (or `yarn`)
-  - Backend side (Server): on the `server` directory type `npm start` (or `yarn`)
+  - Fronted side (Client): on the `Fronted` directory type `npm start`
+  - Backend side (Server): on the `server` directory type `npm start` 
 
 #### Warning: This project has some basics security functions such as hashed user password, encrypt messages and so on, But it is NOT secure enough in production mode.
